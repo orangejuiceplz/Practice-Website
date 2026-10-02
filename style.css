@@ -1,0 +1,130 @@
+body {
+    background-color: #000000;
+    color: #9f9fbf;
+    font-family: "Franklin Gothic Medium", serif;
+    font-size: 32px;
+    padding-right: 90px;
+    margin-left: 90px;
+}
+
+table {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 3px solid #9f9fbf;
+}
+
+.image_cat {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #9f9fbf;
+    align-items: center;
+}
+.header_website {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello_world {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a[href*="frhsd.com"] {
+    color: yellow;
+}
+
+li:hover {
+    padding: 40px;
+    background-color: #ffffff;
+    color: aqua;
+    border: yellow;
+}
+
+/*div {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height:100vh;*/
+/*    background-color: yellow;*/
+/*    li {*/
+/*        list-style: none;*/
+/*    }*/
+/*}*/
+
+ol > li {
+    color: brown;
+}
+
+li+li {
+    border: dotted 3px
+}
+
+#funky {
+    background: orange;
+    color: black;
+    border: yellowgreen dashed 3px;
+}
+
+p+div {
+    background: grey;
+    color: white;
+    border: orange dotted 3px;
+    border-radius: 12px;
+}
+
+#pod {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#othercat {
+    gap: 100px;
+}
+
+#lunaistabby {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+
+    img {
+        width: 50%;
+        height: 100%;
+        grid-column: span 3;
+        grid-row: span 3;
+    }
+
+    p {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    a {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+
+}
+
+.round_center {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
